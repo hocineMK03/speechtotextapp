@@ -1,0 +1,97 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #282c35; /* Dark background color */
+    color: black; /* White text color */
+  }
+  
+  .form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+    background-color: #f5f5f5; /* Light gray background */
+    width: 300px;
+    padding: 20px; /* Increased padding for better spacing */
+    min-height: 250px;
+    max-width: 100%;
+    max-height: 75%;
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle box shadow for depth */
+  }
+  
+  .form--input {
+    min-width: 100px;
+    background-color: #f5f5f5;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px; /* Added margin for spacing between input and buttons */
+  }
+  
+  .form--input button {
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    margin-right: 10px; /* Added margin for spacing between buttons */
+  }
+  
+  #id1 {
+    background-color: #4caf50;
+  }
+  
+  #id2 {
+    background-color: #af4c4c;
+  }
+  
+  #id1:hover {
+    background-color: #3a7d3c;
+  }
+  
+  #id2:hover {
+    background-color: #934040;
+  }
+  
+  .form--output p {
+    width: 100%;
+    resize: none;
+    border: none;
+    padding: 15px;
+    box-sizing: border-box;
+    overflow-y: auto;
+    font-size: 16px;
+    margin-top: 15px; /* Added margin for spacing between input and output */
+  }
+  
+  .form--save button {
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #4cacaf;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    margin-top: 15px; /* Added margin for spacing between input and save button */
+  }
+  
+  .form--save button:hover {
+    background-color: #3e8b8e;
+  }
+  
+  /* Media Query for responsiveness */
+  @media (max-width: 600px) {
+    .form {
+      width: 80%;
+    }
+  }
+  
